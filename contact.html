@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Services - Crystal Clear Windows</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Crystal Clear Windows</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                <li><a href="booking.html" class="nav-link">Book Appointment</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact & Services</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us & Service Request</h1>
+            <p>Get in touch for custom window cleaning services and special requests</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>(555) 123-CLEAN</p>
+                                <small>Mon-Fri: 7AM-6PM<br>Sat: 8AM-4PM</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@crystalclearwindows.com</p>
+                                <small>We respond within 24 hours</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Service Area</h4>
+                                <p>Greater Metro Area</p>
+                                <small>Serving residential & commercial properties within 25 miles</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">💰</div>
+                            <div>
+                                <h4>Free Estimates</h4>
+                                <p>No obligation quotes</p>
+                                <small>Same-day estimates available</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-form-container">
+                    <form class="service-form" id="contactForm">
+                        <h3>Custom Service Request</h3>
+                        
+                        <div class="form-group">
+                            <label for="client-name">Your Name *</label>
+                            <input type="text" id="client-name" name="client-name" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="client-email">Email Address *</label>
+                                <input type="email" id="client-email" name="client-email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="client-phone">Phone Number *</label>
+                                <input type="tel" id="client-phone" name="client-phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="property-address">Property Address *</label>
+                            <textarea id="property-address" name="property-address" rows="3" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="window-services">What would you like done with your windows? *</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="services" value="interior-cleaning">
+                                    <span>Interior window cleaning</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="services" value="exterior-cleaning">
+                                    <span>Exterior window cleaning</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="services" value="frame-cleaning">
+                                    <span>Window frame cleaning</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="services" value="sill-cleaning">
+                                    <span>Window sill cleaning</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="services" value="screen-cleaning">
+                                    <span>Screen cleaning</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="services" value="pressure-washing">
+                                    <span>Exterior pressure washing</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="services" value="gutter-cleaning">
+                                    <span>Gutter cleaning</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="services" value="solar-panel-cleaning">
+                                    <span>Solar panel cleaning</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="frequency">Service Frequency</label>
+                            <select id="frequency" name="frequency">
+                                <option value="">Select Frequency</option>
+                                <option value="one-time">One-time service</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="bi-monthly">Bi-monthly</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="semi-annual">Semi-annual</option>
+                                <option value="annual">Annual</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Estimated Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select Budget</option>
+                                <option value="under-100">Under $100</option>
+                                <option value="100-250">$100 - $250</option>
+                                <option value="250-500">$250 - $500</option>
+                                <option value="500-1000">$500 - $1,000</option>
+                                <option value="over-1000">Over $1,000</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="special-instructions">Special Instructions & Details *</label>
+                            <textarea id="special-instructions" name="special-instructions" rows="5" required placeholder="Please describe any specific requirements, access instructions, problem areas, or special requests for your windows..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-preference">Preferred Contact Method</label>
+                            <select id="contact-preference" name="contact-preference">
+                                <option value="phone">Phone call</option>
+                                <option value="email">Email</option>
+                                <option value="text">Text message</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="best-time">Best time to contact you</label>
+                            <input type="text" id="best-time" name="best-time" placeholder="e.g., Weekday mornings, evenings after 6PM">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Send Service Request</button>
+                        
+                        <p class="form-note">
+                            * Required fields. We'll review your request and contact you within 24 hours with a detailed quote and next steps.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-areas">
+        <div class="container">
+            <h2>Our Service Areas</h2>
+            <div class="areas-grid">
+                <div class="area-card">
+                    <h4>Residential Services</h4>
+                    <ul>
+                        <li>Single-family homes</li>
+                        <li>Townhouses & condos</li>
+                        <li>Apartments</li>
+                        <li>Vacation properties</li>
+                    </ul>
+                </div>
+                <div class="area-card">
+                    <h4>Commercial Services</h4>
+                    <ul>
+                        <li>Office buildings</li>
+                        <li>Retail stores</li>
+                        <li>Restaurants</li>
+                        <li>Medical facilities</li>
+                    </ul>
+                </div>
+                <div class="area-card">
+                    <h4>Specialized Services</h4>
+                    <ul>
+                        <li>High-rise buildings</li>
+                        <li>Historic properties</li>
+                        <li>Post-construction cleanup</li>
+                        <li>Emergency cleaning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Crystal Clear Windows</h3>
+                    <p>Your trusted window cleaning professionals</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="booking.html">Book Appointment</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📞 (555) 123-CLEAN</p>
+                    <p>✉️ info@crystalclearwindows.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Crystal Clear Windows. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

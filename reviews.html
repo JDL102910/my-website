@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews - Crystal Clear Windows</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Crystal Clear Windows</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="reviews.html" class="nav-link active">Reviews</a></li>
+                <li><a href="booking.html" class="nav-link">Book Appointment</a></li>
+                <li><a href="contact.html" class="nav-link">Contact & Services</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Customer Reviews</h1>
+            <p>Read reviews from our satisfied customers and share your own experience</p>
+        </div>
+    </section>
+
+    <section class="reviews-section">
+        <div class="container">
+            <!-- Add Review Form -->
+            <div class="add-review-section">
+                <h2>Share Your Experience</h2>
+                <div class="review-form-container">
+                    <form id="reviewForm" class="review-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reviewer-name">Your Name</label>
+                                <input type="text" id="reviewer-name" name="reviewer-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="rating">Rating</label>
+                                <select id="rating" name="rating" required>
+                                    <option value="">Select Rating</option>
+                                    <option value="5">⭐⭐⭐⭐⭐ (5 stars)</option>
+                                    <option value="4">⭐⭐⭐⭐ (4 stars)</option>
+                                    <option value="3">⭐⭐⭐ (3 stars)</option>
+                                    <option value="2">⭐⭐ (2 stars)</option>
+                                    <option value="1">⭐ (1 star)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="review-text">Your Review</label>
+                            <textarea id="review-text" name="review-text" rows="4" placeholder="Tell us about your experience with our window cleaning service..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="service-type">Service Received</label>
+                            <select id="service-type" name="service-type">
+                                <option value="">Select Service Type</option>
+                                <option value="Residential Cleaning">Residential Cleaning</option>
+                                <option value="Commercial Cleaning">Commercial Cleaning</option>
+                                <option value="Deep Cleaning">Deep Cleaning</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Submit Review</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Reviews Display -->
+            <div class="reviews-display">
+                <h2>What Our Customers Say</h2>
+                <div id="reviews-grid" class="reviews-grid">
+                    <!-- Initial reviews will be loaded here -->
+                </div>
+                
+                <div class="review-stats">
+                    <div class="stat">
+                        <h3 id="average-rating">4.9/5</h3>
+                        <p>Average Rating</p>
+                    </div>
+                    <div class="stat">
+                        <h3 id="total-reviews">6</h3>
+                        <p>Total Reviews</p>
+                    </div>
+                    <div class="stat">
+                        <h3 id="recommend-percent">100%</h3>
+                        <p>Would Recommend</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Crystal Clear Windows</h3>
+                    <p>Your trusted window cleaning professionals</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="booking.html">Book Appointment</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📞 (555) 123-CLEAN</p>
+                    <p>✉️ info@crystalclearwindows.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Crystal Clear Windows. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
